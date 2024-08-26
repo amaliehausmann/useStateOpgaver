@@ -1,8 +1,8 @@
 import style from './ModalWrapper.module.scss'
-export function ModalWrapper(){
+export function ModalWrapper({close}){
 
     return(
-        <div className={style.modalDiv}>
+        <div onClick={close} className={style.modalDiv}>
 
         </div>
     )

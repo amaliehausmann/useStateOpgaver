@@ -43,7 +43,7 @@ function App() {
           <ModalButton close={closeModal}></ModalButton>
         </Modal>
       )}
-      {modalOpen && <ModalWrapper></ModalWrapper>}
+      {modalOpen && <ModalWrapper close={closeModal}></ModalWrapper>}
     </>
   );
 }
